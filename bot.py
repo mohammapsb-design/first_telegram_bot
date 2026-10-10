@@ -20,10 +20,7 @@ async def respond(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     elif message == "hi":
         await update.message.reply_text("Hey there!")
-async def show_me(update:Update , context: ContextTypes.DEFAULT_TYPE):
-    message = update.message.text
     if message == "me":
-        user = update.message.from_user
         await update.message.reply_text(f'''
 ID : {user.id}
 Username : {user.username}
@@ -33,6 +30,5 @@ app = Application.builder().token(BOT_TOKEN).build()
 app.add_handler(CommandHandler("start" , greet))
 app.add_handler(CommandHandler("help" ,help_command))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, respond))
-app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, show_me))
 asyncio.set_event_loop(asyncio.new_event_loop())
 app.run_polling()
