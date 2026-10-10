@@ -35,8 +35,7 @@ My first Telegram bot, built with Python using the `python-telegram-bot` library
    python -m pip install -r requirements.txt
    ```
 
-4. Create a `.env` file in the projec<img width="1376" height="768" alt="1008174151" src="https://github.com/user-attachments/assets/4dbb7518-7963-4f65-b106-fce8fb49630b" />
-t directory and add your bot token:
+4. Create a `.env` file in the project directory and add your bot token:
 
    ```env
    BOT_TOKEN=your_bot_token_here
@@ -56,4 +55,6 @@ t directory and add your bot token:
 ## Status
 
 This is a beginner project created for learning Python and Telegram bot development.y
+## Pictures
+<img width="1214" height="1295" alt="1008174152" src="https://github.com/user-attachments/assets/4685c87c-53c4-4628-b2fd-5977ac966539" />
 
