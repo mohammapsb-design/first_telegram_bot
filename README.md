@@ -54,7 +54,7 @@ My first Telegram bot, built with Python using the `python-telegram-bot` library
 
 ## Status
 
-This is a beginner project created for learning Python and Telegram bot development.y
+This is a beginner project created for learning Python and Telegram bot development.
 ## Pictures
 <img width="1214" height="1295" alt="1008174152" src="https://github.com/user-attachments/assets/4685c87c-53c4-4628-b2fd-5977ac966539" />
 
